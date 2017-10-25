@@ -62,7 +62,6 @@ npm run build --report
 <!-- end Usage Demo -->
 ```
 
-
 #### Demo for vue filter
 
 ```js
@@ -77,10 +76,14 @@ Vue.filter('santizeAnnotationContent', value => {
 })
 ```
 
+#### 使用 netlify 前端构建 CI
+
+https://app.netlify.com/sites/typist-walrus-53887/overview
+
 
 ### 应用结构
 
-
+```sh
 src
 ├── App.vue - 入口 App Component
 ├── assets - 静态资源文件
@@ -96,6 +99,7 @@ src
 │   └── request.js
 └── views
     └── DemoPageView.vue - 页面级组件，在 router 中使用
+```
 
 ### 组件选择
 
