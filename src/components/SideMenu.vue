@@ -1,13 +1,13 @@
 <template>
   <el-menu :router="true" mode="vertical" default-active="1" class="el-menu-vertical-demo">
     <el-menu-item-group title="Menu1">
-      <el-menu-item index="/demopage1"><i class="el-icon-message"></i>Demo Page</el-menu-item>
+      <el-menu-item index="/demopage"><i class="el-icon-message"></i>Demo Page</el-menu-item>
     </el-menu-item-group>
     <el-menu-item-group title="Menu2">
-      <el-menu-item index="3"><i class="el-icon-message"></i>热门</el-menu-item>
+      <el-menu-item index="/404"><i class="el-icon-message"></i>Not Found</el-menu-item>
     </el-menu-item-group>
     <el-menu-item-group title="Menu2">
-      <el-menu-item index="4"><i class="el-icon-message"></i>关于</el-menu-item>
+      <el-menu-item index="4"><i class="el-icon-message"></i>About</el-menu-item>
     </el-menu-item-group>
   </el-menu>
 </template>

@@ -79,6 +79,7 @@ Vue.filter('santizeAnnotationContent', value => {
 #### 使用 netlify 前端构建 CI
 
 https://app.netlify.com/sites/typist-walrus-53887/overview
+node -v  > .nvmrc
 
 
 ### 应用结构
